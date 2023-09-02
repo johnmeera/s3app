@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example_buckets" {
-  bucket        = "johne212120"
-  acl           = "private"
+  bucket        = "var.mybucketname"
+  acl           = "var.access"
   force_destroy = true
 }

@@ -5,4 +5,5 @@ variable "mybucketname" {
 variable "access" {
   description = "bucket name my wish"
   type        =  string
+  default = "private"
 }

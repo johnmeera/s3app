@@ -1,0 +1,3 @@
+variable mybucketname {
+  disc
+}
